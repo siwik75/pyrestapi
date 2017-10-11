@@ -31,5 +31,9 @@ class Departmental_Salary(Resource):
 api.add_resource(Departmental_Salary, '/dept/<string:department_name>')
 api.add_resource(Departments_Meta, '/departments')
 
+@app.route('/')
+def index():
+	return 'This is the entry page. This is a WSGI service providing REST-API endpoints'
+
 if __name__ == '__main__':
      app.run()
