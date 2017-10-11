@@ -1,1 +1,1 @@
-web: gunicorn bin:testapp
+web: gunicorn pyrestapi:testapp
