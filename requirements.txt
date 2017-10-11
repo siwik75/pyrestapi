@@ -1,0 +1,7 @@
+# requirements for HerokuPyRestApi
+coverage
+mock
+sphinx
+flask
+flask-restful
+sqlalchemy
